@@ -69,7 +69,7 @@ flowchart LR
     D["🐳 Docker Compose<br/>docker-compose.yml"] -.orchestre.-> S1 & S2 & S3 & S4 & S5
 ```
 
->  Le schéma détaillé d'origine est disponible dans [`docs/FluxBigData.png`](docs/FluxBigData.png).
+![Schéma du flux](docs/FluxBigData.png)
 
 ### Détail des étapes
 
@@ -175,8 +175,7 @@ Le dashboard est provisionné automatiquement au démarrage de Docker.
 | 4 | Bar chart horizontal | Répartition des protocoles tcp / udp / icmp |
 | 5 | Stat | Compteurs globaux (total d'alertes, types distincts, services touchés) |
 
-> 📸 Ajoutez une capture d'écran de votre dashboard dans `docs/` et affichez-la ici :
-> `![Dashboard Grafana](docs/dashboard.png)`
+![Dashboard Grafana](docs/dashboard.png)
 
 ---
 
